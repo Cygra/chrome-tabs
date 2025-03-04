@@ -1,0 +1,10 @@
+{
+  "name": "all tabs",
+  "description": "show all tab on new blank tab",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["tabs"],
+  "chrome_url_overrides": {
+    "newtab": "new_tab.html"
+  }
+}
